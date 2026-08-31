@@ -6,7 +6,7 @@
 
 本版是截止日视觉表达升级：**不改几何、指标数值、折返协议、SEB 采用或中文知识库内容**，只把第一眼空间设计表达提升到与方案机制同等完成度，并把所有新增素材边界写清。
 
-- **新增 K5 北京AI原点社区原创概念轴测** `assets/media/k5-origin-community-axonometric.webp`：OpenAI 内置图像生成，以账号所有者 2026-08-24 四张自有踏勘照（一期绿道、绿道骑手、铁路纪念刻墙、退役机车）仅作在地材质与铁路遗产线索；未使用任何同行方案图片。场景把铁路遗产绿脊、K5 原点广场、旁置可逆 AI 服务亭、连续无障碍步行净线，以及老人、轮椅使用者、家庭、研究者、骑行者与配送骑手放进同一日常公共空间。正文、展示页与图纸均明示：非现场照片、非测绘底图、非审批效果图，不新增几何、指标或现场证据主张。
+- **K5 北京AI原点社区主视觉二次重构** `assets/media/k5-origin-community-axonometric.webp`：先研究 11 份一手项目资料，覆盖 King's Cross、Punggol Digital District、Nordhavn、HafenCity、Strijp-S、Kendall Square、Quayside、Barcelona Superblocks、The Bentway 与 Kampong AI / LaunchPad 等 10 组案例，只提取“公共空间先行、校产社混合、五分钟街区、遗产再利用、连续首层、多层协作、全年运营”等空间机制；未向生成器提供任何案例图、踏勘照或同行方案图面。新图从“铁路公园场景”改为完整混合社区：校城协作街×铁路记忆绿脊、K5 公共客厅、开放首层、共享院落、生活学习环与旁置可逆 AI 设施同时可读。正文、展示页与图纸均明示：非现场照片、非测绘底图、非审批效果图，不新增几何、指标或现场证据主张。
 - **总览图改为“全线+南中北三段”四联图**：`site-overview(.en).png` 保留本包 GeoJSON 为设计几何，新增 2026-08-31 经 Overpass 获取的 OSM 建筑轮廓作低对比定位背景（© OpenStreetMap contributors，ODbL）。OSM 不参与边界、面积、指标、现状建筑盘点或工程判断；限制写入图面、正文、`sources.json` 与版权台账。
 - **重做展厅封面与四份图纸开篇**：封面以原 RENLINE 识别面板配 K5 轴测；A0/A3 中英四份 PDF 的开篇重排为“空间主张—主视觉—总览—证据边界”，其余 v1.8 技术与证据页保持不变，避免截止日引入无关回归。
 - **中英全链同步**：`proposal(.en).md`、`visual/index(.en).html`、`report/proposal(.en).html`、manifest、来源与版权台账同步更新；iteration 升 v1.9。

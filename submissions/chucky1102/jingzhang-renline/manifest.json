@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "e462b278756bf4ae6cc4a047eda205fde5e9327eb858926d4a332743a59fc973"
+      "sha256": "307afef5cad230f1aa5e6861261ca9ab6ed48d73955f2e2f4ba457f84a16dbb7"
     },
     {
       "path": "agent.json",
@@ -50,7 +50,7 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "299ae7da6244475d353ea8403f393f5a03725f0db943e05ed0561d564de2cc4e"
+      "sha256": "04ce8aae55ef33bf3928e8076311a68f16306d2696739bf5994f7fae2e197c2d"
     },
     {
       "path": "risk.json",
@@ -62,7 +62,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "b4dfb9d1ee094f7b639fdb0200714d7531c7de52283741627399e0c175405179"
+      "sha256": "786eba57c7fef92734cad58a1a9c3ade2a3ec7e17e40fbe4ad4934055aced868"
     },
     {
       "path": "compliance_matrix.json",
@@ -87,7 +87,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "b338efcdfb1bad0ff4151fbb669c9df19afe498dad04d91b49de294a3cc7c6dd"
+      "sha256": "0bc01699e9631382f72a38056042a3c173491f72db517f57956a6e15b52bcb37"
     },
     {
       "path": "report/narrative.md",
@@ -99,28 +99,28 @@
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "9b636c405db9c3a4c5248840001427b0a33d5ad61645350365991b97c546a83d"
+      "sha256": "4bac944e5a145875a737247ca607959f52fa3537578127b4c936d4692d950f4a"
     },
     {
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "972da38706f05c0a027c3fa49282f37b50d8132407f449d863ed1fc496b74a73"
+      "sha256": "487d2792d080aaa708c31f3f0ce465c06b5b2c4246adfc28f784c239438c0ab0"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "bfa89274789b642caec30a34ca8dd968d9bd63e45271c424fffffc9117dcd57e"
+      "sha256": "07b54ad6c4d5e67eceecf11791346183faed93df551324191bf65ecc4690005b"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "1fd2a0724d8d4c819876924d405ffd236e4ed122b768b8543efcf10be5abd37c"
+      "sha256": "595dd525998924da81696f5ffb265772d6706f7fa37ea12f006a8e9797ab83b7"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -217,7 +217,7 @@
       "required": false,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "a91b200ad8228e0aa8a0e916e01755837bbec693a306d7eb119254d9d56c7a62"
+      "sha256": "06510e0c4f2d4a4b3a92f4be15c55af45e8fc358c5f6638ac3738bf370580137"
     },
     {
       "path": "report/proposal.en.html",
@@ -225,7 +225,7 @@
       "required": false,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "11edeecf0057bdc0788f478b92f05be51f140a71f7afafc456294fa876a2dcac"
+      "sha256": "855262b58ed03328b0471a929302a4bcf8ce885321fd06a91dcaa99c89c164d7"
     },
     {
       "path": "visual/index.en.html",
@@ -233,7 +233,7 @@
       "required": false,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "a4835504f1fe246570623d39ba1ac50f46d7cdbfb407c8ea4c06a6f4dddfaa0d"
+      "sha256": "f297ebe9967ee0b8423c76a7d49db010f06a94b9bb510444c3b00d4aa695665b"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -241,7 +241,7 @@
       "required": false,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "51e6dadd318693927e721faa7813df0c74ed52369a1093fa0126bc09ddb1ac61"
+      "sha256": "14c116edabe94496ea16ccc754270994e5cac1d5996efb968264bcfb8701f6db"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -249,7 +249,7 @@
       "required": false,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "7ffab13c85ae6cc7475d0e69dd37f3a75611c7d5df1716d2a46f39c9e990183f"
+      "sha256": "6e8cd8ad1fbb4928e8ee782c943562134a952022d1ce439a8397fff0d884dfba"
     },
     {
       "path": "assets/figures/site-overview.en.png",
@@ -296,7 +296,7 @@
       "role": "changelog",
       "required": false,
       "language": "zh",
-      "sha256": "7eeaaaa49cc99c44b75c446c914178e67c70869c8a8123baf05a3c8a9e1b0c29"
+      "sha256": "1b479d36d456c28acae97bafdfb26d0552855161697632915f624f3de8301fb2"
     },
     {
       "path": "visual/assets/switchback-protocol.json",
@@ -328,7 +328,7 @@
       "title_en": "RENLINE gallery cover (conceptual)",
       "description_zh": "原有人字线代码绘制识别面板与K5原创概念轴测组合;非现场照片、非测绘底图、非官方效果图。",
       "description_en": "Composite of the existing code-drawn RENLINE identity panel and the original K5 concept axonometric; not a site photograph, survey base or official rendering.",
-      "sha256": "545fc0ae244fb682a9c86724d16ec241c2d68e9da2eb94ca4381d9b245b9898a"
+      "sha256": "f93f78c55267af667dda3675cf879baac68ca030fe50afd910be7fcc1378f2c3"
     },
     {
       "path": "assets/media/k5-origin-community-axonometric.webp",
@@ -337,9 +337,9 @@
       "language": "neutral",
       "title_zh": "K5北京AI原点社区原创概念轴测",
       "title_en": "Original K5 Beijing AI Origin Community concept axonometric",
-      "description_zh": "OpenAI内置图像生成;四张账号所有者自有踏勘照仅作在地线索;未使用同行方案图片;非现场照片、测绘底图或审批效果图。",
-      "description_en": "OpenAI built-in image generation; four owner-shot field photos used only as local cues; no peer-submission imagery; not a site photograph, survey base or approval rendering.",
-      "sha256": "2c4e219b1cab48f82cbed5761c45264ef40ebfcee2e56d47b9946ca44ae6558e"
+      "description_zh": "OpenAI内置图像生成;经11份一手资料研究10组国际创新街区与混合社区案例后独立转译;生成时未输入案例图、踏勘照或同行方案图面;非现场照片、测绘底图或审批效果图。",
+      "description_en": "OpenAI built-in image generation informed by 10 international precedents studied through 11 first-party sources; no case-study, field or peer-submission image supplied; not a site photograph, survey base or approval rendering.",
+      "sha256": "c55920ae020796f217509614e68a40609c8a58ddc353a0ed646419f4df0da872"
     },
     {
       "path": "visual/assets/renline-explorer.js",
