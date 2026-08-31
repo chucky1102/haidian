@@ -37,6 +37,7 @@
         "submissions/chucky1102/jingzhang-renline/assets/figures/street-interface.png",
         "submissions/chucky1102/jingzhang-renline/assets/figures/survey-track.png",
         "submissions/chucky1102/jingzhang-renline/assets/media/cover.webp",
+        "submissions/chucky1102/jingzhang-renline/assets/media/k5-origin-community-axonometric.webp",
         "submissions/chucky1102/jingzhang-renline/assets/media/renline-explorer-walkthrough.webp",
         "submissions/chucky1102/jingzhang-renline/assets/media/renline-soundscape.m4a",
         "submissions/chucky1102/jingzhang-renline/assets/media/renline-soundscape.md",
@@ -112,7 +113,7 @@
       "ai_package_stages": {
         "submissions/chucky1102/jingzhang-renline": "formal"
       },
-      "total_bytes": 38645521,
+      "total_bytes": 41218838,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -190,7 +191,7 @@
         "proposal_format_version": "1",
         "evidence_contract": "legacy-exhaustive-inline",
         "proposal_reference_counts": {
-          "source": 14,
+          "source": 16,
           "standard": 6,
           "depth": 15,
           "data": 33,

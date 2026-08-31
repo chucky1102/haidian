@@ -4,7 +4,7 @@ All submitted text, geometry, diagrams, PDFs, and static HTML assets are generat
 
 ## Multimodal presentation assets (v1.2)
 
-- `assets/media/cover.webp` (gallery cover) and `visual/assets/renline-explorer.js` with `visual/assets/renline-explorer-fallback.png` (the interactive explorer script embedded in both visual pages, and its static fallback) are original works drawn/written entirely in code (Python/Pillow and hand-written HTML/Canvas JavaScript) by the declared AI agent. No third-party imagery, fonts embedded in files, templates, map tiles, trackers or external libraries are used; system fonts are referenced by name only at render time. The explorer runs fully offline with zero network requests.
+- In v1.2, the original `assets/media/cover.webp` and `visual/assets/renline-explorer.js` with `visual/assets/renline-explorer-fallback.png` were original works drawn/written entirely in code (Python/Pillow and hand-written HTML/Canvas JavaScript). The explorer remains code-only, runs fully offline and makes zero network requests. The cover was replaced in v1.9 by the separately ledgered composite described below.
 - Generation method: deterministic scripts preserved in the workspace (`.renline-scripts/`); schematic coordinates are illustrative only.
 - All three assets are conceptual presentation artifacts labeled as such in-page; they do not depict official renderings, approved plans, completed construction or existing site conditions.
 
@@ -26,7 +26,7 @@ All submitted text, geometry, diagrams, PDFs, and static HTML assets are generat
 | --- | --- | --- | --- | --- |
 | `report/proposal.html`, `report/proposal.en.html`, `visual/index.html`, `visual/index.en.html` | Noto Sans SC (variable, wght 100–900) | google/fonts repository, `ofl/notosanssc`, © Adobe/Google | SIL OFL 1.1 | Embedded as base64 **woff2 subsets** covering only characters used in each file, so the pages render identically on machines without Chinese system fonts; declared first in every `font-family` stack with system CJK fallbacks retained |
 | `drawings/a0-boards*.pdf`, `drawings/a3-booklet*.pdf` | Noto Sans SC (variable) | same as above | SIL OFL 1.1 | Embedded by the PDF renderer as glyph subsets; no proprietary system fonts embedded in the v1.7 drawing set |
-| `assets/figures/*.png` — all seven figure pairs (`site-overview`, `land-use-structure`, `key-areas`, `mobility-bluegreen`, `metrics-evidence`, `public-section`, `street-interface`) | Noto Sans SC (static Regular / Bold instances cut from the variable font at wght 400 / 700) | same as above | SIL OFL 1.1 | Rasterised to bitmap by the figure generator. **Corrected in v1.8:** the five pre-existing figure pairs were previously rasterised from the proprietary system faces PingFang SC / Hiragino Sans GB; they have been regenerated from the OFL face so that every figure in the package now derives its glyphs from an open-licensed typeface. Layout is unchanged (per-figure pixel difference 1.9–3.8%, canvas sizes identical) |
+| `assets/figures/*.png` — all seven figure pairs (`site-overview`, `land-use-structure`, `key-areas`, `mobility-bluegreen`, `metrics-evidence`, `public-section`, `street-interface`) | Noto Sans SC / Noto Sans CJK SC (static or variable instances at regular/bold weights) | google/fonts or Adobe/Google Noto distribution | SIL OFL 1.1 | Rasterised to bitmap by the figure generator. **Corrected in v1.8:** the five pre-existing figure pairs were regenerated from an OFL face. **Updated in v1.9:** both `site-overview` images were rebuilt with Noto Sans CJK SC glyphs while adding segmented context views. |
 
 OFL permits embedding and redistribution of subsets; the license text ships with the font upstream and is not modified. No other typefaces are embedded anywhere in the package. Two remaining assets still rasterise system fonts to bitmaps and are documented in their own sections above: `assets/media/cover.webp` and the `renline-walkthrough.mp4` frames. They are listed here so the exception is explicit rather than implied.
 
@@ -39,9 +39,9 @@ OFL permits embedding and redistribution of subsets; the license text ships with
 
 | Asset group | Generation method | Third-party material |
 | --- | --- | --- |
-| `assets/figures/*.png` (5 map/diagram pairs zh+en, survey-track) | Python (matplotlib/Pillow) from package GeoJSON + field-survey GPS | none |
+| `assets/figures/*.png` (map/diagram pairs zh+en, survey-track) | Python (matplotlib/Pillow) from package GeoJSON + field-survey GPS; v1.9 `site-overview` additionally uses OSM building footprints as low-contrast orientation context | OSM building fabric in `site-overview` only, © OpenStreetMap contributors, ODbL |
 | `assets/figures/renline-logo.svg` | hand-written SVG | none |
-| `assets/media/cover.webp` | Python/Pillow code drawing | none |
+| `assets/media/cover.webp` | v1.9 Python/Pillow composite: existing code-drawn RENLINE identity panel + crop of the generated K5 concept axonometric | generated K5 concept image, ledgered below |
 | `assets/media/renline-soundscape.m4a` (+vtt/md) | Python/NumPy additive synthesis | none (no samples) |
 | `assets/media/renline-walkthrough.mp4` (+vtt/md/poster) | Python/Pillow frames + ffmpeg | none |
 | `assets/site-photos/*.jpg` (16) | photographs by the human account owner, 2026-08-24 | photographer-owned, cleared for in-package display |
@@ -59,3 +59,21 @@ Two Wikimedia Commons photographs are included under `assets/reference-photos/`,
 | `wudaokou-night-2008.jpg` | [Wikimedia Commons: Wudaokou.jpg](https://commons.wikimedia.org/wiki/File:Wudaokou.jpg), photo by Mfrk, 2008-04-06 | CC BY-SA 3.0 | none | Historical illustration of Wudaokou's night-time tradition; explicitly labeled as not depicting 2026 conditions and not field evidence for scenario card 9 |
 
 Both are attributed inline at each point of use (proposal text and HTML, zh & en) and registered in `sources.json` (`WIKIMEDIA-QHY-OLDHOUSE-2023`, `WIKIMEDIA-WUDAOKOU-NIGHT-2008`). Per the ShareAlike condition, these two image files remain under their respective CC BY-SA licenses; their inclusion does not alter the licensing of any other package asset, and the package-level COMMUNITY-DISPLAY-ONLY notice does not restrict rights the CC licenses grant in these two files.
+
+## v1.9 visual upgrade — generation, references and evidence boundary
+
+### K5 Origin Community concept axonometric
+
+- `assets/media/k5-origin-community-axonometric.webp` was generated on 2026-08-31 with OpenAI's built-in image-generation tool. Four photographs owned and cleared by the account owner — `phase1-greenway.jpg`, `greenway-courier.jpg`, `park-heritage-wall.jpg`, and `locomotive-display.jpg` — were supplied only as visual references for local greenway material, ordinary users and visible railway-heritage cues. No image from any peer proposal was supplied or copied.
+- Final prompt brief: “Create a high-end, hand-rendered architectural axonometric concept scene at plausible Beijing neighbourhood scale for K5 Beijing AI Origin Community. Preserve the Jing-Zhang railway-heritage green spine, a visible heritage rail/locomotive memory line, accessible continuous walking and cycling, and a modest reversible AI service pavilion outside the clear path. Include older adults, a wheelchair user, families, researchers, cyclists and a delivery courier in ordinary shared public life. Use warm late-afternoon light, restrained RENLINE signal-green/rust-red/compute-blue accents, tactile planting and material detail. No text, labels, logos or watermark; do not mimic a photograph, survey base, statutory plan or approval rendering.”
+- Output boundary: this is generated concept art. Its people, buildings, vegetation and spatial relationships are not site observations and cannot be used to infer geometry, dimensions, ownership, regulatory compliance, construction status or approval.
+
+### Site overview and cover
+
+- `assets/figures/site-overview.png` and `site-overview.en.png` were rebuilt on 2026-08-31 as a full-line view plus three legible segment views. Coloured design geometry comes from the submission's own GeoJSON. Grey building footprints were retrieved from OpenStreetMap through the Overpass API on 2026-08-31; © OpenStreetMap contributors, licensed under ODbL. OSM is used only as low-contrast orientation context and is not used for proposal boundaries, area/metric calculations, current-condition inventory, ownership, regulatory controls or engineering conclusions. Source and limits are registered as `SRC-OSM-COPYRIGHT` in `sources.json`.
+- The v1.9 `assets/media/cover.webp` combines the previous code-drawn RENLINE identity panel with a crop of the K5 concept axonometric. It remains clearly labelled as a concept axonometric and not an official rendering.
+
+### v1.9 drawing PDFs
+
+- The four PDFs under `drawings/` retain the v1.8 technical and evidence pages, while v1.9 replaces their opening sheet/page with a new code-authored composition using only package text, the new K5 concept axonometric, the rebuilt overview and the RENLINE visual system. Noto Sans CJK SC (SIL OFL 1.1) is embedded/subset by the PDF authoring pipeline.
+- The opening compositions make the generated-image and provisional-data boundaries visible on the page. No peer-submission imagery, map tiles, proprietary templates or unlicensed fonts are used.

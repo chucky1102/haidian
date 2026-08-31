@@ -10,7 +10,9 @@
 
 :root { --rust:#B5442D; --green:#1E7F4F; --blue:#1F5FA8; --paper:#FAF7F2; --ink:#2B2B2B; --gray:#9C9890; --card:#fff; --line:#E5DFD2; }
 * { margin:0; padding:0; box-sizing:border-box; }
-body { font-family:"Noto Sans SC Embedded","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif; background:var(--paper); color:var(--ink); line-height:1.65; }
+body { font-family:"Noto Sans SC Embedded","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif; background:var(--paper); color:var(--ink); line-height:1.65; overflow-x:hidden; }
+img,video,canvas { max-width:100%; }
+.sub,.warn,p,figcaption { overflow-wrap:anywhere; }
 .wrap { max-width:1180px; margin:0 auto; padding:0 20px 60px; }
 header { padding:52px 0 24px; border-bottom:3px solid var(--ink); margin-bottom:8px; }
 h1 { font-size:clamp(30px,5vw,46px); letter-spacing:2px; }
@@ -53,10 +55,23 @@ footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--line); co
 
 <header>
   <h1>RENLINE <span class="en">人字线</span></h1>
-  <div class="sub">Centennial Jing-Zhang AI Innovation Belt Urban Design · The Jing-Zhang AI Switchback · AI agent submission: chucky1102 · v1.7</div>
+  <div class="sub">Centennial Jing-Zhang AI Innovation Belt Urban Design · The Jing-Zhang AI Switchback · AI agent submission: chucky1102 · v1.9</div>
   <div class="warn">⚠ All spatial boundaries on this page are <b>provisional rough boundaries</b> for proposal expression and self-checks only — not official redlines, parcel boundaries or precise areas. All spatial content is a conceptual suggestion / reference scheme for professional teams to deepen, and constitutes no government-approved conclusion. Full recalculation once official redlines are released.</div>
   <p style="margin-top:12px;font-size:14.5px">In 1909 Zhan Tianyou crossed Badaling with the ren-shaped switchback — climbing by reversal, exactly how AI learns by iteration. RENLINE translates that switchback wisdom into a spatial prototype: <b>one spine, two tracks, three switchbacks; seven east-west stitches; ten K-mark waypoints</b>. One stroke of ren is the heritage track of the centennial railway, the other the future track of urban AI life; their junction is human-centered AI fusion innovation.</p>
 </header>
+
+<section id="v19-hero">
+  <h2>K5 Origin Community <small>a first-glance public-life scene built from the spatial strategy</small></h2>
+  <figure style="margin:0">
+    <img src="../assets/media/k5-origin-community-axonometric.webp" alt="Original AI-generated K5 Beijing AI Origin Community concept axonometric with the railway-heritage green spine, Origin Plaza, reversible AI pavilion and inclusive public life" style="width:100%;display:block;border-radius:10px;border:1px solid var(--line)">
+    <figcaption style="font-size:12.5px;color:var(--gray);margin-top:7px">Original AI concept axonometric · OpenAI built-in image generation · four owner-shot field photos used only as local cues · not a site photograph, survey base or approval rendering</figcaption>
+  </figure>
+  <div class="grid g3" style="margin-top:12px">
+    <div class="card"><b>Heritage as the spine</b><p>Railway heritage is the continuous green public spine connecting K5 Origin Plaza to everyday life, not decorative scenery.</p></div>
+    <div class="card"><b>AI reversible, service continuous</b><p>The reversible AI pavilion stays outside the clear walking line; human, paper and physical wayfinding paths remain when it is removed.</p></div>
+    <div class="card"><b>One space, different people</b><p>Older adults, a wheelchair user, families, researchers, cyclists and a delivery courier share one continuously accessible public interface.</p></div>
+  </div>
+</section>
 
 <section id="explorer">
   <h2>RENLINE Explorer (interactive) <small>bundled locally, zero external dependencies, conceptual</small></h2>
@@ -120,7 +135,7 @@ footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--line); co
     <figure style="margin:0"><a href="../assets/site-photos/k1-juesheng-temple.jpg"><img src="../assets/site-photos/k1-juesheng-temple.jpg" alt="Juesheng Temple (Dazhongsi) gate with frontage improvement works underway" loading="lazy" style="width:100%;border-radius:8px;border:1px solid var(--line)"></a><figcaption style="font-size:12.5px;color:var(--gray);margin-top:4px">Juesheng Temple (Dazhongsi) gate with frontage improvement works underway</figcaption></figure>
     <figure style="margin:0"><a href="../assets/site-photos/greenway-courier.jpg"><img src="../assets/site-photos/greenway-courier.jpg" alt="A delivery courier riding along the greenway" loading="lazy" style="width:100%;border-radius:8px;border:1px solid var(--line)"></a><figcaption style="font-size:12.5px;color:var(--gray);margin-top:4px">A delivery courier riding along the greenway</figcaption></figure>
   </div>
-  <p style="font-size:13px;color:var(--gray);margin-top:8px">All 14 photos and the per-photo register live under assets/site-photos/ (field-survey-register.json); original GPS and time EXIF retained, no identifiable faces. Conclusions in the Design Basis and transport chapters of the proposal.</p>
+  <p style="font-size:13px;color:var(--gray);margin-top:8px">All 16 photos and the per-photo register live under assets/site-photos/ (field-survey-register.json); original GPS and time EXIF retained, no identifiable faces. Conclusions in the Design Basis and transport chapters of the proposal.</p>
 </section>
 
 <section id="overview">

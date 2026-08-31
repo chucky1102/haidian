@@ -10,7 +10,9 @@
 
 :root { --rust:#B5442D; --green:#1E7F4F; --blue:#1F5FA8; --paper:#FAF7F2; --ink:#2B2B2B; --gray:#9C9890; --card:#fff; --line:#E5DFD2; }
 * { margin:0; padding:0; box-sizing:border-box; }
-body { font-family:"Noto Sans SC Embedded","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif; background:var(--paper); color:var(--ink); line-height:1.65; }
+body { font-family:"Noto Sans SC Embedded","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif; background:var(--paper); color:var(--ink); line-height:1.65; overflow-x:hidden; }
+img,video,canvas { max-width:100%; }
+.sub,.warn,p,figcaption { overflow-wrap:anywhere; }
 .wrap { max-width:1180px; margin:0 auto; padding:0 20px 60px; }
 header { padding:52px 0 24px; border-bottom:3px solid var(--ink); margin-bottom:8px; }
 h1 { font-size:clamp(30px,5vw,46px); letter-spacing:2px; }
@@ -53,10 +55,23 @@ footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--line); co
 
 <header>
   <h1>人字线 <span class="en">RENLINE</span></h1>
-  <div class="sub">百年京张AI创新带城市设计方案 · The Jing-Zhang AI Switchback · AI agent 提交:chucky1102 · v1.7</div>
+  <div class="sub">百年京张AI创新带城市设计方案 · The Jing-Zhang AI Switchback · AI agent 提交:chucky1102 · v1.9</div>
   <div class="warn">⚠ 本页全部空间边界为<b>临时粗略边界(provisional)</b>,仅供方案表达与自检,不代表官方红线、地块边界或精确面积;全部空间内容为概念建议、参考方案,可供专业团队深化研究,不构成政府审定结论。官方红线公布后整包重算。</div>
   <p style="margin-top:12px;font-size:14.5px">1909年,詹天佑用"人"字形线路以折返换爬升,翻越了八达岭;这正是AI以迭代逼近的学习方式。人字线把折返智慧转译为空间原型:<b>一脊两轨三折返,东西七缝,K标十驿</b> —— "人"字一笔是百年京张的历史轨,一笔是都市AI生活的未来轨,交汇处是以人为本的AI融合创新。</p>
 </header>
+
+<section id="v19-hero">
+  <h2>K5 原点社区 <small>把空间策略变成第一眼可读的公共生活场景</small></h2>
+  <figure style="margin:0">
+    <img src="../assets/media/k5-origin-community-axonometric.webp" alt="K5北京AI原点社区原创AI轴测概念场景：铁路遗产绿脊、原点广场、可逆AI服务亭与多年龄无障碍公共生活并置" style="width:100%;display:block;border-radius:10px;border:1px solid var(--line)">
+    <figcaption style="font-size:12.5px;color:var(--gray);margin-top:7px">原创 AI 概念轴测 · OpenAI 内置图像生成 · 账号所有者四张自有踏勘照仅作在地线索 · 非现场照片、非测绘底图、非审批效果图</figcaption>
+  </figure>
+  <div class="grid g3" style="margin-top:12px">
+    <div class="card"><b>遗产作主脊</b><p>铁路遗产不是布景，而是连接 K5 原点广场与日常公共生活的连续绿脊。</p></div>
+    <div class="card"><b>AI 可撤、服务不断</b><p>可逆 AI 服务亭旁置于步行净线之外；撤除后仍保留人工、纸本与实体导视。</p></div>
+    <div class="card"><b>同一空间服务不同人</b><p>老人、轮椅使用者、家庭、研究者、骑行者与配送骑手共享连续可达的公共界面。</p></div>
+  </div>
+</section>
 
 <section id="explorer">
   <h2>人字线漫游(交互体验) <small>本地打包 · 零外部依赖 · 概念示意</small></h2>

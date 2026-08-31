@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "77aeecfc112117186dfb96d62f258e2d7552fa4296dab2dfc2c940c898fd9307"
+      "sha256": "e462b278756bf4ae6cc4a047eda205fde5e9327eb858926d4a332743a59fc973"
     },
     {
       "path": "agent.json",
@@ -50,7 +50,7 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "ba608d983f9f98f899a8c2cd56419fc71c69ba195305a5da1442d3eeff9101d6"
+      "sha256": "299ae7da6244475d353ea8403f393f5a03725f0db943e05ed0561d564de2cc4e"
     },
     {
       "path": "risk.json",
@@ -62,7 +62,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "37aa8cbd75c66d51b2aad1f07fcc055ab04caa4f2e9781927623c6a2eeef79f7"
+      "sha256": "b4dfb9d1ee094f7b639fdb0200714d7531c7de52283741627399e0c175405179"
     },
     {
       "path": "compliance_matrix.json",
@@ -87,7 +87,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "3bbe226af41b0568baf4b3ae20263214ca78f8ab6279f1048580146a1faadea5"
+      "sha256": "b338efcdfb1bad0ff4151fbb669c9df19afe498dad04d91b49de294a3cc7c6dd"
     },
     {
       "path": "report/narrative.md",
@@ -99,28 +99,28 @@
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "1914d1d2c9773f08e243411fe443fe777a0f238d4bc59df7556af5621bf785bb"
+      "sha256": "9b636c405db9c3a4c5248840001427b0a33d5ad61645350365991b97c546a83d"
     },
     {
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "c79954d297f367b71b9a102849bf81aeae2b81ef4061145944f1aec339b9b8a2"
+      "sha256": "972da38706f05c0a027c3fa49282f37b50d8132407f449d863ed1fc496b74a73"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "83fc17a22b9fbc2c3b66770e5cb7cddbbd5ff14a6ec26bebe3a6d021471121ee"
+      "sha256": "bfa89274789b642caec30a34ca8dd968d9bd63e45271c424fffffc9117dcd57e"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "81e8d322435be5e2bbcf0c2c48b7bf784c1afbc2889b2734242e1c537820a4ae"
+      "sha256": "1fd2a0724d8d4c819876924d405ffd236e4ed122b768b8543efcf10be5abd37c"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -155,7 +155,7 @@
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "3599b13ba4a02aee00baa01339f7e73821b4a4deb4c3078a2937dbea5036ea7c"
+      "sha256": "51b560cfd66f9246e19d02ab37a9cd236efb3a78bb52fd3b5a833acf45b74658"
     },
     {
       "path": "geometry/buildings.geojson",
@@ -217,7 +217,7 @@
       "required": false,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "db6741fdec445e05d88d34281574e07276daf3b9f46ae4eb0b251f6872eba577"
+      "sha256": "a91b200ad8228e0aa8a0e916e01755837bbec693a306d7eb119254d9d56c7a62"
     },
     {
       "path": "report/proposal.en.html",
@@ -225,7 +225,7 @@
       "required": false,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "e8c29a57455978ef7dd72e373ca9ad3be3fc8ab743330a57c5de69a7fce85278"
+      "sha256": "11edeecf0057bdc0788f478b92f05be51f140a71f7afafc456294fa876a2dcac"
     },
     {
       "path": "visual/index.en.html",
@@ -233,7 +233,7 @@
       "required": false,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "eee8a4b9a76f8dd008327178460dac7dc2233c04e1e9ce7a01f62a275c28bdaa"
+      "sha256": "a4835504f1fe246570623d39ba1ac50f46d7cdbfb407c8ea4c06a6f4dddfaa0d"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -241,7 +241,7 @@
       "required": false,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "d4c9d8a759fd15f403fa8c61ff01264a644ff61ccbe4d0de2a06d013d7f10d6d"
+      "sha256": "51e6dadd318693927e721faa7813df0c74ed52369a1093fa0126bc09ddb1ac61"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -249,7 +249,7 @@
       "required": false,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "8479aeaafb4076a13d6f42a5315a68f8488b3785374d6b87262644b2b3061e68"
+      "sha256": "7ffab13c85ae6cc7475d0e69dd37f3a75611c7d5df1716d2a46f39c9e990183f"
     },
     {
       "path": "assets/figures/site-overview.en.png",
@@ -257,7 +257,7 @@
       "required": false,
       "language": "en",
       "translation_of": "assets/figures/site-overview.png",
-      "sha256": "ee19bc195b50fe0bb869db53b7916a03f09ca424732e1e5c1b1863cee3cf3e97"
+      "sha256": "06db6375acd4a6fa21f2d852b450f343d81aff5ddad9eef08e4a3428e6181abc"
     },
     {
       "path": "assets/figures/land-use-structure.en.png",
@@ -296,7 +296,7 @@
       "role": "changelog",
       "required": false,
       "language": "zh",
-      "sha256": "3e20b728edc73a26459f74408cd895e6ed27e6818e50c7518c115d99158c3b5a"
+      "sha256": "7eeaaaa49cc99c44b75c446c914178e67c70869c8a8123baf05a3c8a9e1b0c29"
     },
     {
       "path": "visual/assets/switchback-protocol.json",
@@ -326,9 +326,20 @@
       "language": "neutral",
       "title_zh": "人字线展厅封面(概念示意)",
       "title_en": "RENLINE gallery cover (conceptual)",
-      "description_zh": "代码绘制的概念封面:人字双轨与K5零公里信号节点;非官方效果图。",
-      "description_en": "Code-drawn conceptual cover of the twin ren-rails and the K5 kilometre-zero node; not an official rendering.",
-      "sha256": "c87f879529d36081705ff6dfb8060692994fb9c6f4c8c69ce95af5dc615c7e5a"
+      "description_zh": "原有人字线代码绘制识别面板与K5原创概念轴测组合;非现场照片、非测绘底图、非官方效果图。",
+      "description_en": "Composite of the existing code-drawn RENLINE identity panel and the original K5 concept axonometric; not a site photograph, survey base or official rendering.",
+      "sha256": "545fc0ae244fb682a9c86724d16ec241c2d68e9da2eb94ca4381d9b245b9898a"
+    },
+    {
+      "path": "assets/media/k5-origin-community-axonometric.webp",
+      "role": "media_poster",
+      "required": false,
+      "language": "neutral",
+      "title_zh": "K5北京AI原点社区原创概念轴测",
+      "title_en": "Original K5 Beijing AI Origin Community concept axonometric",
+      "description_zh": "OpenAI内置图像生成;四张账号所有者自有踏勘照仅作在地线索;未使用同行方案图片;非现场照片、测绘底图或审批效果图。",
+      "description_en": "OpenAI built-in image generation; four owner-shot field photos used only as local cues; no peer-submission imagery; not a site photograph, survey base or approval rendering.",
+      "sha256": "2c4e219b1cab48f82cbed5761c45264ef40ebfcee2e56d47b9946ca44ae6558e"
     },
     {
       "path": "visual/assets/renline-explorer.js",
